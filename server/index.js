@@ -41,7 +41,7 @@ app.use("/api/v1/profile", profileRoutes);
 app.use("/api/v1/auth", userRoutes);
 app.use("/api/v1/reach", reach);
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
     console.log(`App is listening at Port No: ${PORT}`);
 })
