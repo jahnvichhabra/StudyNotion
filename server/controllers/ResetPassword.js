@@ -24,7 +24,7 @@ exports.resetPasswordToken = async(req, res) => {
             resetPasswordExpires: Date.now() + 5*60*1000,  //5 min
         }, {new: true});
 
-        const url = `http://localhost:3000/update-password/${token}`;
+        const url = `https://study-notion-frontend-beta.vercel.app/update-password/${token}`;
 
         await mailSender("", email, "Password Reset Link", `Password Reset Link: ${url} \n Please note that, this link is valid upto 5 mins.`);
 
