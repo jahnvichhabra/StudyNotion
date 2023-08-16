@@ -150,7 +150,7 @@ function Footer() {
                 </div>
 
                 <div className='mx-auto md:mx-0 text-sm sm:text-base'>
-                    <p>Made with ❤️ CodeHelp © 2023 StudyNotion</p>
+                    <p>Made with ❤️ Jahnvi Chhabra © 2023 StudyNotion</p>
                 </div>
             </div>
         </div>
